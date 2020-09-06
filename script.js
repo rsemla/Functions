@@ -19,7 +19,7 @@ headTwoEle.innerHTML="To drive a car with an MPG rating of 17 for " +miles +" mi
 headThreeEle.innerHTML="To drive a car with an MPG rating of 26 for " +miles +" miles at $"+cost +" per gallon would cost $" +totalCost26;
 headFourEle.innerHTML="To drive a car with an MPG rating of 29 for " +miles +" miles at $"+cost +" per gallon would cost $" +totalCost29; 
 }
-//rewriteFunction();
+rewriteFunction();
 
 buttonEle.addEventListener("click", function(){         
      rewriteFunction();
